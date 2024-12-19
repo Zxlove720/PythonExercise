@@ -46,3 +46,44 @@
 #
 # t1 = t[1:3]
 # print(t1)
+
+# 字符串
+# 字符串也是不可变的
+# my_str = "hello wor ld "
+# print(my_str[0])
+#
+# for i in my_str:
+#     print(i, end=" ")
+# print()
+#
+# # 将old全部替换为new，字符串不会改变，所以说replace方法实际上是返回了一个新的字符串
+# new_str = my_str.replace(" ", "|")
+# print(my_str)
+# print(new_str)
+#
+# # 将字符串按照参数分割，然后返回一个列表
+# words = my_str.split(" ")
+# print(type(words))
+# print(words)
+#
+# # 转换为大写
+# upper = my_str.upper()
+# print(upper)
+
+# s = "itheima itcast boxuegu"
+# print(s.count("it"))
+# new_str = s.replace(" ", "|")
+# print(new_str)
+# lit = new_str.split("|")
+# print(lit)
+
+# 序列切片
+s = "万过薪月，员序程马黑来，nohtyp学"
+# 得到子串“黑马程序员”
+my_list = s.split("，")
+print(my_list[1][:5][::-1])
+
+my_list2 = s.split("，")
+print(my_list2[1].replace("来", "")[::-1])
+
+
