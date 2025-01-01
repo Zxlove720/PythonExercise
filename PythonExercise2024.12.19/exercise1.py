@@ -87,3 +87,5 @@ my_list2 = s.split("，")
 print(my_list2[1].replace("来", "")[::-1])
 
 
+
+
