@@ -102,7 +102,7 @@
 #
 # if __name__ == "__main__":
 #     # exercise1()
-#     # exercise2()
+#     # exercise2.py()
 #     # exercise3()
 #     # exercise4()
 #     # exercise5()
