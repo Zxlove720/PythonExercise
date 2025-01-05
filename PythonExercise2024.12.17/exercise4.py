@@ -71,7 +71,7 @@
 #
 #
 # #202358234044 吴振博：6. 绘制三维曲面，效果自定义。
-# def exercise6():
+# def exercise6.py():
 #     from mpl_toolkits.mplot3d import Axes3D
 #     fig = plt.figure()
 #     ax = fig.add_subplot(111, projection='3d')
@@ -106,7 +106,7 @@
 #     # exercise3()
 #     # exercise4()
 #     # exercise5()
-#     # exercise6()
+#     # exercise6.py()
 #     exercise7()
 
 number1 = int(11.9999)
