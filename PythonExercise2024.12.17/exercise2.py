@@ -10,10 +10,11 @@ def task1():
 # 202358234044 吴振博
 # 2. 编写程序，使用给定的整数 n，生成一个包含 (i, i*i) 的字典，该字典包含 1 到 n 之间的整数(两者都包含)。
 def task2():
+    result_dict = {}
     n = int(input("请输入整数 n: "))
-    result_dict = {i: i * i for i in range(1, n + 1)}
+    for i in range(1, n + 1):
+        result_dict[i] = i * i
     print(result_dict)
-
 
 # 202358234044 吴振博
 # 3. 编写程序，用户输入若干整数，试找出其中的最大数和最小数。
@@ -77,9 +78,12 @@ def task6():
 # 7. 编写程序，输入的若干个整数，通过 s 求这些整数的绝对值之和。
 def task7():
     input_str = input("请输入若干整数，用空格分隔: ")
-    num_list = list(map(int, input_str.split()))
-    abs_sum = sum(abs(num) for num in num_list)
-    print(f"绝对值之和: {abs_sum}")
+    my_list = input_str.split(" ")
+    count = 0
+    for e in my_list:
+        count += abs(int(e))
+    print(count)
+
 
 
 # 202358234044 吴振博
@@ -99,4 +103,10 @@ if __name__ == "__main__":
     # task5()
     # task6()
     # task7()
-    task8()
+    # task8()
+    n = 0
+    z = 0
+    while z <= 2020:
+        n += 1
+        z += n
+    print("n={0}".format(n))
